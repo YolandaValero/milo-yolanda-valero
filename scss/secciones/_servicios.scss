@@ -1,0 +1,111 @@
+.nuestros {
+   @extend %titulos;
+}
+
+.container5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "hold fotoPerro";
+    justify-items: end;
+    align-items: center;
+}
+
+.container5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fotoPerro {
+    grid-area: fotoPerro;
+}
+
+.hold {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "baño"
+        "uñas"
+        "orejas"
+        "corte";
+    grid-area: hold;
+    justify-items: end;
+}
+
+.baño {
+    grid-area: baño;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.baño1 {
+    width: 30px;
+    margin-top: -279px;
+    margin-left: 37px;
+}
+
+.uñas {
+    grid-area: uñas;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.uñas1 {
+    width: 30px;
+    margin-top: -215px;
+    margin-left: -30px;
+}
+
+.orejas {
+    grid-area: orejas;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.orejas1 {
+    width: 30px;
+    margin-top: -158px;
+    margin-left: -63px;
+}
+
+.corte {
+    grid-area: corte;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.corte1 {
+    width: 30px;
+    margin-top: -99px;
+    margin-left: -13px;
+}
+
+.packs {
+    @extend %titulos;
+    margin-bottom: 47px;
+}
+
+.card {
+    margin-left: 20%;
+    margin-bottom: 20%;
+    width: 12rem;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.strong3 {
+    font-weight: 500;
+}
+
+.em3 {
+    font-style: normal;
+}

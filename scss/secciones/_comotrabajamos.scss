@@ -1,0 +1,128 @@
+.domicilio {
+  @extend %titulos;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "foto"
+    "texto";
+  justify-items: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.container2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container2 ul {
+  list-style-type: none;
+  line-height: 10px;
+  font-size: 8px;
+  margin-right: 10px;
+  margin-left: -20px;
+  margin-top: 5px;
+}
+
+.foto {
+  grid-area: foto;
+  margin-bottom: -45px;
+}
+
+.texto {
+  grid-area: texto;
+  text-align: justify;
+  background-color: $turquesaOscuro;
+  color: $blanco;
+  padding: 10px;
+}
+
+.no {
+  @include condiciones(18);
+}
+
+.sinModificaciones {
+  @include condiciones(17px);
+}
+
+.mascotaNueva {
+  @include condiciones(16px);
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "uno uno uno uno dos dos siete siete"
+    "tres tres cuatro cuatro seis seis ocho ocho"
+    "tres tres cinco cinco seis seis nueve nueve";
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+  grid-gap: 10px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.container3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.uno {
+  grid-area: uno;
+}
+
+.dos {
+  grid-area: dos;
+}
+
+.tres {
+  grid-area: tres;
+}
+
+.cuatro {
+  grid-area: cuatro;
+}
+
+.cinco {
+  grid-area: cinco;
+}
+
+.seis {
+  grid-area: seis;
+}
+
+.siete {
+  grid-area: siete;
+}
+
+.ocho {
+  grid-area: ocho;
+}
+
+.nueve {
+  grid-area: nueve;
+}
+
+.mas {
+  @extend %titulos;
+  margin-bottom: -73px;
+}
+
+.strong1 {
+  font-weight: 550;
+}
+
+.em2 {
+  font-style: normal;
+}

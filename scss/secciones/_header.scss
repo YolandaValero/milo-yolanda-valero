@@ -1,0 +1,32 @@
+// Acá empieza el header
+.header {
+  nav {
+    background-color: $gris !important;
+    padding: 0;
+  }
+  .logo {
+    width: 100px;
+  }
+  .collapse {
+    flex-grow: 0;
+  }
+  .navbar {
+    --bs-navbar-color: white;
+    font-size: 18px;
+    font-weight: 600;
+    --bs-navbar-nav-link-padding-x: 40px;
+  }
+  .navbar-nav .nav-link.active {
+    color: $blanco;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .btn {
+    background-color: $turquesa;
+    border-color: $turquesa;
+    font-size: 19px;
+    font-weight: 600;
+    margin-right: 30px;
+    padding-bottom: 9px;
+  }
+}

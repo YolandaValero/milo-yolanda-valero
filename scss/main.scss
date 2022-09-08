@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import './variables/colores';
+
+@import './variables/extend';
+
+@import './variables/mixin';
+
+@import './secciones/header';
+
+@import './secciones/footer';
+
+@import './secciones/index';
+
+@import './secciones/servicios';
+
+@import './secciones/precios';
+
+@import './secciones/reserva';
+
+@import './secciones/comotrabajamos';
+
+@import './secciones/mediaQuery';
