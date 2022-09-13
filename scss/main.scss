@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@import './secciones/mediaQuery';
+
 @import './variables/colores';
 
 @import './variables/extend';
@@ -22,5 +25,3 @@
 @import './secciones/reserva';
 
 @import './secciones/comotrabajamos';
-
-@import './secciones/mediaQuery';

@@ -1,0 +1,89 @@
+.mainPrecios {
+  .p {
+    @extend %titulos;
+  }
+
+  .paquetes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: $turquesa;
+    margin: 62px;
+    padding-top: 2px;
+    transition: all 0.25s;
+    box-shadow: 0 2px 2px #00000080;
+    text-align: center;
+
+    .preciosImg {
+      width: 60vw;
+      border-radius: 8px;
+    }
+
+    .preciosP {
+      font-size: 1.25rem;
+      font-weight: 500;
+      line-height: 1.2;
+      color: $blanco;
+      margin-top: 15px;
+    }
+  }
+
+  .containerPrecios {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "pequeño mediano grande"
+      "valorP valorM valorG";
+
+    .pequeño {
+      grid-area: pequeño;
+      font-weight: 700;
+    }
+
+    .mediano {
+      grid-area: mediano;
+      font-weight: 700;
+    }
+
+    .grande {
+      grid-area: grande;
+
+      font-weight: 700;
+    }
+
+    .valorP {
+      grid-area: valorP;
+
+      font-weight: 500;
+    }
+
+    .valorM {
+      grid-area: valorM;
+
+      font-weight: 500;
+    }
+
+    .valorG {
+      grid-area: valorG;
+
+      font-weight: 500;
+    }
+  }
+
+  .gatosPrecio {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: $blanco;
+    margin-top: 40px;
+    margin-bottom: 59px;
+    background-color: $turquesa;
+    padding: 17px;
+  }
+}

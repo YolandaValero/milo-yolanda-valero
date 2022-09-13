@@ -3,10 +3,13 @@
   nav {
     background-color: $gris !important;
     padding: 0;
-  }
+  
   .logo {
-    width: 100px;
+    width: 145px;
+    margin-left: -22px;
   }
+}
+  
   .collapse {
     flex-grow: 0;
   }
@@ -29,4 +32,5 @@
     margin-right: 30px;
     padding-bottom: 9px;
   }
+
 }
