@@ -5,7 +5,7 @@
     width: 140%;
   }
 
-/*Cómo Trabajamos*/
+  /*Cómo Trabajamos*/
 
   .foto {
     grid-area: foto;
@@ -93,7 +93,7 @@
     padding: 6px;
   }
 
-/*Precios*/
+  /*Precios*/
 
   .mainPrecios {
     .p {
@@ -108,44 +108,42 @@
       }
     }
 
-.containerPrecios {
-    .pequeño {
+    .containerPrecios {
+      .pequeño {
         font-size: 25px;
-    }
-    .mediano {
+      }
+      .mediano {
         font-size: 25px;
-    }
+      }
 
-    .grande {
+      .grande {
         font-size: 25px;
-    }
+      }
 
-    .valorP {
+      .valorP {
         font-size: 22px;
       }
-  
+
       .valorM {
         font-size: 22px;
       }
-  
+
       .valorG {
         font-size: 22px;
       }
     }
-    .gatosPrecio{
-        font-size: 20px;
+    .gatosPrecio {
+      font-size: 20px;
     }
   }
 
-/*Reserva*/ 
+  /*Reserva*/
 
-.mainReserva{
-
+  .mainReserva {
     .formu {
-       font-size: 22px;
+      font-size: 22px;
     }
-}
-
+  }
 }
 
 /* Media Query - Mobile first - Dispositivos Grandes */
@@ -262,4 +260,11 @@
   p {
     font-size: 25px;
   }
-}
+
+  .mainPrecios {
+    .paquetes {
+      margin: 203px;
+      }
+    }
+  }
+
