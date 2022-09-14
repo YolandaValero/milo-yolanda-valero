@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19",
+    "bootstrap": "5.2.1"
+  },
+  "name": "milo-yolanda-valero",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    
+  },
+  "author": "Yolanda Valero",
+  "license": "ISC",
+  "description": "Milo, un estética a domicilio para mascotas. Pensando en la comodidad de los peluditos, su seguridad y el buen trato."
+}
