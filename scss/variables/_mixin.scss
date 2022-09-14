@@ -1,9 +1,10 @@
 @mixin condiciones($size) {
-  color: $blanco;
+  color: white;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   font-size: $size;
   margin-top: 10px;
-  padding: 14px;
-  background-color: $turquesaOscuro;
+  padding: 17px;
+  line-height: 18px;
+  background-color: #127f8b;
 }

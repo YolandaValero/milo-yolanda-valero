@@ -12,7 +12,7 @@
     "texto";
   justify-items: center;
   align-items: center;
-  margin-top: 40px;
+  margin-top: -50px;
 }
 
 .container2 img {
@@ -32,7 +32,7 @@
 
 .foto {
   grid-area: foto;
-  margin-bottom: -45px;
+  margin-bottom: 72px;
 }
 
 .texto {
@@ -41,18 +41,19 @@
   background-color: $turquesaOscuro;
   color: $blanco;
   padding: 10px;
+  margin-top: -79px;
 }
 
 .no {
-  @include condiciones(18);
+  @include condiciones(15px);
 }
 
 .sinModificaciones {
-  @include condiciones(17px);
+  @include condiciones(14px);
 }
 
 .mascotaNueva {
-  @include condiciones(16px);
+  @include condiciones(15.5px);
 }
 
 .container3 {

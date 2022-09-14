@@ -1,0 +1,72 @@
+ .mainReserva{
+
+    .banner4{
+        width: 100%;
+    }
+
+ 
+    .resgistrate {
+       @extend %titulos;
+
+    }
+
+    .formu {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        font-family: arial;
+        margin-top: 46px;
+        margin-bottom: 46px;
+    }
+
+    .nombre {
+        grid-area: nombre;
+        margin-bottom: 15px;
+    }
+
+    .telefono {
+        grid-area: telefono;
+        margin-bottom: 15px;
+    }
+
+    .mascota {
+        grid-area: mascota;
+        margin-bottom: 15px;
+    }
+
+    .tamaño {
+        grid-area: tamaño;
+        margin-bottom: 15px;
+    }
+
+    .cumple {
+        grid-area: cumple;
+        margin-bottom: 15px;
+    }
+
+    .edad {
+        grid-area: edad;
+        margin-bottom: 15px;
+    }
+
+    .quieres {
+        grid-area: quieres;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .si {
+        grid-area: si;
+        margin-bottom: 15px;
+    }
+
+    .nop {
+        grid-area: no;
+        margin-bottom: 15px;
+    }
+
+    .enviar {
+        grid-area: enviar;
+        margin-bottom: 15px;
+    }
+}

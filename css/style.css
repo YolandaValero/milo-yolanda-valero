@@ -4,140 +4,13 @@
   padding: 0;
   box-sizing: border-box; }
 
-/* Media Query - Mobile first - Dispositivos Medianos */
-@media (min-width: 768px) {
-  .container2 img {
-    width: 70%;
-    height: 70%;
-    margin-left: 120px; }
-  .texto {
-    font-size: 16px;
-    margin-top: -135px; }
-  .container2 ul {
-    line-height: 18px;
-    font-size: 14px; }
-  .mas {
-    margin-top: -103px;
-    margin-bottom: -38px; }
-  .nuestros {
-    margin-top: 70px;
-    margin-bottom: 34px; }
-  .baño {
-    font-size: 27px;
-    padding: 8px; }
-  .uñas {
-    font-size: 27px;
-    padding: 8px; }
-  .orejas {
-    font-size: 27px;
-    padding: 8px; }
-  .corte {
-    font-size: 27px;
-    padding: 8px; }
-  .baño1 {
-    width: 73px;
-    margin-top: -581px;
-    margin-left: 129px; }
-  .uñas1 {
-    width: 73px;
-    margin-top: -460px;
-    margin-left: -72px; }
-  .orejas1 {
-    width: 73px;
-    margin-top: -354px;
-    margin-left: -133px; }
-  .corte1 {
-    width: 73px;
-    margin-top: -232px;
-    margin-left: -39px; }
-  .packs {
-    margin-top: 24px;
-    margin-bottom: 90px; }
-  .card {
-    margin-left: 0;
-    margin-bottom: 15%;
-    width: 16rem;
-    padding: 6px; } }
-
-/* Media Query - Mobile first - Dispositivos Grandes */
-@media (min-width: 992px) {
-  .domicilio {
-    margin-top: 100px; }
-  .container2 {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "foto texto";
-    grid-auto-flow: row;
-    margin-top: 100px; }
-  .texto {
-    font-size: 20px;
-    margin-top: 10px;
-    margin-right: 34px; }
-  .container2 ul {
-    line-height: 22px;
-    font-size: 17px;
-    margin-top: 17px;
-    margin-bottom: 5px; }
-  .container2 img {
-    margin-left: 46px;
-    width: 80%; }
-  .mas {
-    margin-top: 170px;
-    margin-bottom: 131px; }
-  .container3 {
-    margin-bottom: 82px; }
-  .nuestros {
-    margin-top: 140px;
-    margin-bottom: 50px; }
-  .container5 img {
-    width: 800px;
-    height: 100%;
-    object-fit: cover; }
-  .baño {
-    font-size: 50px;
-    padding: 29px; }
-  .uñas {
-    font-size: 50px;
-    padding: 29px; }
-  .orejas {
-    font-size: 50px;
-    padding: 29px; }
-  .corte {
-    font-size: 50px;
-    padding: 29px; }
-  .baño1 {
-    width: 100px;
-    margin-top: -1220px;
-    margin-left: 100px; }
-  .uñas1 {
-    width: 100px;
-    margin-top: -956px;
-    margin-left: -96px; }
-  .orejas1 {
-    width: 100px;
-    margin-top: -690px;
-    margin-left: -210px; }
-  .corte1 {
-    width: 100px;
-    margin-top: -421px;
-    margin-left: -30px; }
-  .packs {
-    margin-top: 83px;
-    margin-bottom: 146px; }
-  .card {
-    width: 28em; }
-  h5 {
-    font-size: 2.25rem; }
-  p {
-    font-size: 25px; } }
-
-.main h1, .main h2, .main h3, .nuestros, .packs, .mainPrecios .p, .domicilio, .mas {
+.main h1, .main h2, .main h3, .nuestros, .packs, .mainPrecios .p, .mainReserva .resgistrate, .domicilio, .mas {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
   font-weight: 550;
   color: darkgrey;
   text-align: center;
-  margin-top: 130px; }
+  margin-top: 55px; }
 
 .header nav {
   background-color: darkgrey !important;
@@ -165,7 +38,8 @@
   border-color: #23b4c4;
   font-size: 19px;
   font-weight: 600;
-  margin-right: 30px;
+  margin-left: -6px;
+  margin-bottom: 13px;
   padding-bottom: 9px; }
 
 .text-center .container .mb-4 .fb-ic {
@@ -179,6 +53,9 @@
 
 .text-center .container .mb-4 .insta {
   width: 30px; }
+
+.main .w-100 {
+  width: 180% !important; }
 
 .main .servicios {
   color: #127f8b;
@@ -243,13 +120,13 @@
   justify-content: space-around;
   margin-top: 50px; }
   .main .valores .amor {
-    width: 300px; }
+    width: 250px; }
   .main .valores .paciencia {
-    width: 300px; }
+    width: 250px; }
   .main .valores .respeto {
-    width: 300px; }
+    width: 250px; }
   .main .valores .vip {
-    width: 300px; }
+    width: 250px; }
 
 .main .container1 {
   display: grid;
@@ -260,7 +137,7 @@
   align-items: center;
   padding: 20px;
   grid-gap: 10px;
-  margin-top: 100px; }
+  margin-top: 65px; }
 
 .main .container1 img {
   width: 100%;
@@ -292,7 +169,7 @@
   width: 90px; }
 
 .main h3 {
-  margin-bottom: 40px; }
+  margin-bottom: -20px; }
 
 .main .img-fluid {
   margin-top: 100px;
@@ -449,6 +326,58 @@
   background-color: #23b4c4;
   padding: 17px; }
 
+.mainReserva .banner4 {
+  width: 100%; }
+
+.mainReserva .formu {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: arial;
+  margin-top: 46px;
+  margin-bottom: 46px; }
+
+.mainReserva .nombre {
+  grid-area: nombre;
+  margin-bottom: 15px; }
+
+.mainReserva .telefono {
+  grid-area: telefono;
+  margin-bottom: 15px; }
+
+.mainReserva .mascota {
+  grid-area: mascota;
+  margin-bottom: 15px; }
+
+.mainReserva .tamaño {
+  grid-area: tamaño;
+  margin-bottom: 15px; }
+
+.mainReserva .cumple {
+  grid-area: cumple;
+  margin-bottom: 15px; }
+
+.mainReserva .edad {
+  grid-area: edad;
+  margin-bottom: 15px; }
+
+.mainReserva .quieres {
+  grid-area: quieres;
+  margin-bottom: 15px;
+  text-align: center; }
+
+.mainReserva .si {
+  grid-area: si;
+  margin-bottom: 15px; }
+
+.mainReserva .nop {
+  grid-area: no;
+  margin-bottom: 15px; }
+
+.mainReserva .enviar {
+  grid-area: enviar;
+  margin-bottom: 15px; }
+
 .container2 {
   display: grid;
   grid-template-columns: 1fr;
@@ -457,7 +386,7 @@
   grid-template-areas: "foto" "texto";
   justify-items: center;
   align-items: center;
-  margin-top: 40px; }
+  margin-top: -50px; }
 
 .container2 img {
   width: 100%;
@@ -474,40 +403,44 @@
 
 .foto {
   grid-area: foto;
-  margin-bottom: -45px; }
+  margin-bottom: 72px; }
 
 .texto {
   grid-area: texto;
   text-align: justify;
   background-color: #127f8b;
   color: white;
-  padding: 10px; }
+  padding: 10px;
+  margin-top: -79px; }
 
 .no {
   color: white;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18;
+  font-size: 15px;
   margin-top: 10px;
-  padding: 14px;
+  padding: 17px;
+  line-height: 18px;
   background-color: #127f8b; }
 
 .sinModificaciones {
   color: white;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   margin-top: 10px;
-  padding: 14px;
+  padding: 17px;
+  line-height: 18px;
   background-color: #127f8b; }
 
 .mascotaNueva {
   color: white;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 15.5px;
   margin-top: 10px;
-  padding: 14px;
+  padding: 17px;
+  line-height: 18px;
   background-color: #127f8b; }
 
 .container3 {
@@ -563,3 +496,130 @@
 
 .em2 {
   font-style: normal; }
+
+/* Media Query - Mobile first - Dispositivos Medianos */
+@media (min-width: 768px) {
+  .container2 img {
+    width: 70%;
+    height: 70%;
+    margin-left: 120px; }
+  .texto {
+    font-size: 16px;
+    margin-top: -135px; }
+  .container2 ul {
+    line-height: 18px;
+    font-size: 14px; }
+  .mas {
+    margin-top: -103px;
+    margin-bottom: -38px; }
+  .nuestros {
+    margin-top: 70px;
+    margin-bottom: 34px; }
+  .baño {
+    font-size: 27px;
+    padding: 8px; }
+  .uñas {
+    font-size: 27px;
+    padding: 8px; }
+  .orejas {
+    font-size: 27px;
+    padding: 8px; }
+  .corte {
+    font-size: 27px;
+    padding: 8px; }
+  .baño1 {
+    width: 73px;
+    margin-top: -581px;
+    margin-left: 129px; }
+  .uñas1 {
+    width: 73px;
+    margin-top: -460px;
+    margin-left: -72px; }
+  .orejas1 {
+    width: 73px;
+    margin-top: -354px;
+    margin-left: -133px; }
+  .corte1 {
+    width: 73px;
+    margin-top: -232px;
+    margin-left: -39px; }
+  .packs {
+    margin-top: 24px;
+    margin-bottom: 90px; }
+  .card {
+    margin-left: 0;
+    margin-bottom: 15%;
+    width: 16rem;
+    padding: 6px; } }
+
+/* Media Query - Mobile first - Dispositivos Grandes */
+@media (min-width: 992px) {
+  .domicilio {
+    margin-top: 100px; }
+  .container2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "foto texto";
+    grid-auto-flow: row;
+    margin-top: 100px; }
+  .texto {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 34px; }
+  .container2 ul {
+    line-height: 22px;
+    font-size: 17px;
+    margin-top: 17px;
+    margin-bottom: 5px; }
+  .container2 img {
+    margin-left: 46px;
+    width: 80%; }
+  .mas {
+    margin-top: 170px;
+    margin-bottom: 131px; }
+  .container3 {
+    margin-bottom: 82px; }
+  .nuestros {
+    margin-top: 140px;
+    margin-bottom: 50px; }
+  .container5 img {
+    width: 800px;
+    height: 100%;
+    object-fit: cover; }
+  .baño {
+    font-size: 50px;
+    padding: 29px; }
+  .uñas {
+    font-size: 50px;
+    padding: 29px; }
+  .orejas {
+    font-size: 50px;
+    padding: 29px; }
+  .corte {
+    font-size: 50px;
+    padding: 29px; }
+  .baño1 {
+    width: 100px;
+    margin-top: -1220px;
+    margin-left: 100px; }
+  .uñas1 {
+    width: 100px;
+    margin-top: -956px;
+    margin-left: -96px; }
+  .orejas1 {
+    width: 100px;
+    margin-top: -690px;
+    margin-left: -210px; }
+  .corte1 {
+    width: 100px;
+    margin-top: -421px;
+    margin-left: -30px; }
+  .packs {
+    margin-top: 83px;
+    margin-bottom: 146px; }
+  .card {
+    width: 28em; }
+  h5 {
+    font-size: 2.25rem; }
+  p {
+    font-size: 25px; } }
