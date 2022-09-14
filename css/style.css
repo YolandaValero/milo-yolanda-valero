@@ -54,9 +54,6 @@
 .text-center .container .mb-4 .insta {
   width: 30px; }
 
-.main .w-100 {
-  width: 180% !important; }
-
 .main .servicios {
   color: #127f8b;
   font-size: 30px;
@@ -498,19 +495,25 @@
   font-style: normal; }
 
 /* Media Query - Mobile first - Dispositivos Medianos */
+/*Index*/
 @media (min-width: 768px) {
+  .w-100 {
+    width: 140%; }
+  /*Cómo Trabajamos*/
+  .foto {
+    grid-area: foto;
+    margin-bottom: 72px;
+    margin-top: 80px; }
   .container2 img {
-    width: 70%;
-    height: 70%;
-    margin-left: 120px; }
+    width: 420px; }
   .texto {
-    font-size: 16px;
-    margin-top: -135px; }
+    margin-top: -290px;
+    font-size: 19px; }
   .container2 ul {
     line-height: 18px;
     font-size: 14px; }
   .mas {
-    margin-top: -103px;
+    margin-top: -154px;
     margin-bottom: -38px; }
   .nuestros {
     margin-top: 70px;
@@ -550,10 +553,34 @@
     margin-left: 0;
     margin-bottom: 15%;
     width: 16rem;
-    padding: 6px; } }
+    padding: 6px; }
+  /*Precios*/
+  .mainPrecios .p {
+    padding: 30px; }
+  .mainPrecios .paquetes {
+    margin: 152px; }
+    .mainPrecios .paquetes .preciosP {
+      font-size: 25px; }
+  .mainPrecios .containerPrecios .pequeño {
+    font-size: 25px; }
+  .mainPrecios .containerPrecios .mediano {
+    font-size: 25px; }
+  .mainPrecios .containerPrecios .grande {
+    font-size: 25px; }
+  .mainPrecios .containerPrecios .valorP {
+    font-size: 22px; }
+  .mainPrecios .containerPrecios .valorM {
+    font-size: 22px; }
+  .mainPrecios .containerPrecios .valorG {
+    font-size: 22px; }
+  .mainPrecios .gatosPrecio {
+    font-size: 20px; }
+  /*Reserva*/
+  .mainReserva .formu {
+    font-size: 22px; } }
 
 /* Media Query - Mobile first - Dispositivos Grandes */
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .domicilio {
     margin-top: 100px; }
   .container2 {
@@ -563,17 +590,18 @@
     grid-auto-flow: row;
     margin-top: 100px; }
   .texto {
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 10px;
     margin-right: 34px; }
   .container2 ul {
     line-height: 22px;
-    font-size: 17px;
+    font-size: 19px;
     margin-top: 17px;
     margin-bottom: 5px; }
   .container2 img {
     margin-left: 46px;
-    width: 80%; }
+    width: 80%;
+    margin-top: -55px; }
   .mas {
     margin-top: 170px;
     margin-bottom: 131px; }

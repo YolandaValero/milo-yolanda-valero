@@ -1,204 +1,265 @@
 /* Media Query - Mobile first - Dispositivos Medianos */
-
+/*Index*/
 @media (min-width: 768px) {
+  .w-100 {
+    width: 140%;
+  }
 
-    .container2 img {
-        width: 70%;
-        height: 70%;
-        margin-left: 120px;
+/*Cómo Trabajamos*/
+
+  .foto {
+    grid-area: foto;
+    margin-bottom: 72px;
+    margin-top: 80px;
+  }
+
+  .container2 img {
+    width: 420px;
+  }
+
+  .texto {
+    margin-top: -290px;
+    font-size: 19px;
+  }
+
+  .container2 ul {
+    line-height: 18px;
+    font-size: 14px;
+  }
+
+  .mas {
+    margin-top: -154px;
+    margin-bottom: -38px;
+  }
+
+  .nuestros {
+    margin-top: 70px;
+    margin-bottom: 34px;
+  }
+
+  .baño {
+    font-size: 27px;
+    padding: 8px;
+  }
+
+  .uñas {
+    font-size: 27px;
+    padding: 8px;
+  }
+
+  .orejas {
+    font-size: 27px;
+    padding: 8px;
+  }
+
+  .corte {
+    font-size: 27px;
+    padding: 8px;
+  }
+
+  .baño1 {
+    width: 73px;
+    margin-top: -581px;
+    margin-left: 129px;
+  }
+
+  .uñas1 {
+    width: 73px;
+    margin-top: -460px;
+    margin-left: -72px;
+  }
+
+  .orejas1 {
+    width: 73px;
+    margin-top: -354px;
+    margin-left: -133px;
+  }
+
+  .corte1 {
+    width: 73px;
+    margin-top: -232px;
+    margin-left: -39px;
+  }
+
+  .packs {
+    margin-top: 24px;
+    margin-bottom: 90px;
+  }
+
+  .card {
+    margin-left: 0;
+    margin-bottom: 15%;
+    width: 16rem;
+    padding: 6px;
+  }
+
+/*Precios*/
+
+  .mainPrecios {
+    .p {
+      padding: 30px;
     }
 
-    .texto {
-        font-size: 16px;
-        margin-top: -135px;
+    .paquetes {
+      margin: 152px;
+
+      .preciosP {
+        font-size: 25px;
+      }
     }
 
-    .container2 ul {
-        line-height: 18px;
-        font-size: 14px;
+.containerPrecios {
+    .pequeño {
+        font-size: 25px;
+    }
+    .mediano {
+        font-size: 25px;
     }
 
-    .mas {
-        margin-top: -103px;
-        margin-bottom: -38px;
+    .grande {
+        font-size: 25px;
     }
 
-    .nuestros {
-        margin-top: 70px;
-        margin-bottom: 34px;
+    .valorP {
+        font-size: 22px;
+      }
+  
+      .valorM {
+        font-size: 22px;
+      }
+  
+      .valorG {
+        font-size: 22px;
+      }
     }
+    .gatosPrecio{
+        font-size: 20px;
+    }
+  }
 
-    .baño {
-        font-size: 27px;
-        padding: 8px;
-    }
+/*Reserva*/ 
 
-    .uñas {
-        font-size: 27px;
-        padding: 8px;
-    }
+.mainReserva{
 
-    .orejas {
-        font-size: 27px;
-        padding: 8px;
+    .formu {
+       font-size: 22px;
     }
+}
 
-    .corte {
-        font-size: 27px;
-        padding: 8px;
-    }
-
-    .baño1 {
-        width: 73px;
-        margin-top: -581px;
-        margin-left: 129px;
-    }
-
-    .uñas1 {
-        width: 73px;
-        margin-top: -460px;
-        margin-left: -72px;
-    }
-
-    .orejas1 {
-        width: 73px;
-        margin-top: -354px;
-        margin-left: -133px;
-    }
-
-    .corte1 {
-        width: 73px;
-        margin-top: -232px;
-        margin-left: -39px;
-    }
-
-    .packs {
-        margin-top: 24px;
-        margin-bottom: 90px;
-    }
-
-    .card {
-        margin-left: 0;
-        margin-bottom: 15%;
-        width: 16rem;
-        padding: 6px;
-    }
 }
 
 /* Media Query - Mobile first - Dispositivos Grandes */
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
+  .domicilio {
+    margin-top: 100px;
+  }
 
-    .domicilio {
-        margin-top: 100px;
-    }
+  .container2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "foto texto";
+    grid-auto-flow: row;
+    margin-top: 100px;
+  }
 
-    .container2 {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas:
-            "foto texto";
-        grid-auto-flow: row;
-        margin-top: 100px;
-    }
+  .texto {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-right: 34px;
+  }
 
-    .texto {
-        font-size: 20px;
-        margin-top: 10px;
-        margin-right: 34px;
-    }
+  .container2 ul {
+    line-height: 22px;
+    font-size: 19px;
+    margin-top: 17px;
+    margin-bottom: 5px;
+  }
 
-    .container2 ul {
-        line-height: 22px;
-        font-size: 17px;
-        margin-top: 17px;
-        margin-bottom: 5px;
-    }
+  .container2 img {
+    margin-left: 46px;
+    width: 80%;
+    margin-top: -55px;
+  }
 
-    .container2 img {
-        margin-left: 46px;
-        width: 80%;
-    }
+  .mas {
+    margin-top: 170px;
+    margin-bottom: 131px;
+  }
 
-    .mas {
-        margin-top: 170px;
-        margin-bottom: 131px;
-    }
+  .container3 {
+    margin-bottom: 82px;
+  }
 
-    .container3 {
-        margin-bottom: 82px;
-    }
+  .nuestros {
+    margin-top: 140px;
+    margin-bottom: 50px;
+  }
 
-    .nuestros {
-        margin-top: 140px;
-        margin-bottom: 50px;
-    }
+  .container5 img {
+    width: 800px;
+    height: 100%;
+    object-fit: cover;
+  }
 
-    .container5 img {
-        width: 800px;
-        height: 100%;
-        object-fit: cover;
-    }
+  .baño {
+    font-size: 50px;
+    padding: 29px;
+  }
 
-    .baño {
-        font-size: 50px;
-        padding: 29px;
-    }
+  .uñas {
+    font-size: 50px;
+    padding: 29px;
+  }
 
-    .uñas {
-        font-size: 50px;
-        padding: 29px;
-    }
+  .orejas {
+    font-size: 50px;
+    padding: 29px;
+  }
 
-    .orejas {
-        font-size: 50px;
-        padding: 29px;
-    }
+  .corte {
+    font-size: 50px;
+    padding: 29px;
+  }
 
-    .corte {
-        font-size: 50px;
-        padding: 29px;
-    }
+  .baño1 {
+    width: 100px;
+    margin-top: -1220px;
+    margin-left: 100px;
+  }
 
-    .baño1 {
-        width: 100px;
-        margin-top: -1220px;
-        margin-left: 100px;
-    }
+  .uñas1 {
+    width: 100px;
+    margin-top: -956px;
+    margin-left: -96px;
+  }
 
-    .uñas1 {
-        width: 100px;
-        margin-top: -956px;
-        margin-left: -96px;
-    }
+  .orejas1 {
+    width: 100px;
+    margin-top: -690px;
+    margin-left: -210px;
+  }
 
-    .orejas1 {
-        width: 100px;
-        margin-top: -690px;
-        margin-left: -210px;
-    }
+  .corte1 {
+    width: 100px;
+    margin-top: -421px;
+    margin-left: -30px;
+  }
 
-    .corte1 {
-        width: 100px;
-        margin-top: -421px;
-        margin-left: -30px;
-    }
+  .packs {
+    margin-top: 83px;
+    margin-bottom: 146px;
+  }
 
-    .packs {
-        margin-top: 83px;
-        margin-bottom: 146px;
-    }
+  .card {
+    width: 28em;
+  }
 
-    .card {
-        width: 28em;
+  h5 {
+    font-size: 2.25rem;
+  }
 
-    }
-
-    h5 {
-        font-size: 2.25rem;
-    }
-
-    p {
-        font-size: 25px;
-    }
+  p {
+    font-size: 25px;
+  }
 }

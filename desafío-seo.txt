@@ -27,12 +27,8 @@ Reserva: Dejanos tus Datos
 Inicio: Comodidad
 ¿Cómo Trabajamos?: El hogar debe contar con un espacio apto, con acceso a agua fría y caliente.
 Servicios: Full
-Precios:
-Reserva:
 
 <em>
 Inicio: Hogar
 ¿Cómo Trabajamos?: *El precio establecido no sufre modificaciones
 Servicios: Corte de uñas, higiénico y básico.
-Precios:
-Reserva:
