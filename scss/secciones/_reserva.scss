@@ -1,92 +1,131 @@
- .mainReserva{
+.mainReserva {
+  .banner4 {
+    width: 100%;
+  }
 
-    .banner4{
-        width: 100%;
-    }
+  .resgistrate {
+    @extend %titulos;
+  }
 
- 
-    .resgistrate {
-       @extend %titulos;
+  .animate__animated {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+    margin-top: 46px;
+    margin-bottom: 46px;
+    --animate-duration: 3s;
+    background-color: $turquesa;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: $blanco;
+  }
 
-    }
+  .nombre {
+    grid-area: nombre;
+    margin-bottom: 15px;
+    text-align: center;
+    color: $gris;
+  }
 
-    .animate__animated {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        font-family: arial;
-        margin-top: 46px;
-        margin-bottom: 46px;
-        --animate-duration:3s;
-        background-color: $turquesa;
-        padding: 30px;
-        margin-left: 40px;
-        margin-right: 40px;
-        color: $blanco;
-    } 
+  .telefono {
+    grid-area: telefono;
+    margin-bottom: 15px;
+    text-align: center;
+    color: $gris;
+  }
 
-    .nombre {
-        grid-area: nombre;
-        margin-bottom: 15px;
-        text-align: center;
-        color: $gris;
-    }
+  .mascota {
+    grid-area: mascota;
+    margin-bottom: 15px;
+    text-align: center;
+    color: $gris;
+  }
 
-    .telefono {
-        grid-area: telefono;
-        margin-bottom: 15px;
-        text-align: center;
-        color: $gris;
-    }
+  .tamaño {
+    grid-area: tamaño;
+    margin-bottom: 15px;
+    text-align: center;
+    color: $gris;
+  }
 
-    .mascota {
-        grid-area: mascota;
-        margin-bottom: 15px;
-        text-align: center;
-        color: $gris;
-    }
+  .cumple {
+    grid-area: cumple;
+    margin-bottom: 15px;
+    text-align: center;
+  }
 
-    .tamaño {
-        grid-area: tamaño;
-        margin-bottom: 15px;
-        text-align: center;
-        color: $gris;
-    }
+  .edad {
+    grid-area: edad;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 3px;
+    color: $gris;
+  }
 
-    .cumple {
-        grid-area: cumple;
-        margin-bottom: 15px;
-        text-align: center;
-        
-    }
+  .quieres {
+    grid-area: quieres;
+    margin-bottom: 15px;
+    text-align: center;
+  }
 
-    .edad {
-        grid-area: edad;
-        margin-bottom: 15px;
-        text-align: center;
-        padding: 3px;
-        color: $gris;
-    }
+  .si {
+    grid-area: si;
+    margin-bottom: 15px;
+  }
 
-    .quieres {
-        grid-area: quieres;
-        margin-bottom: 15px;
-        text-align: center;
-    }
+  .nop {
+    grid-area: no;
+    margin-bottom: 15px;
+  }
 
-    .si {
-        grid-area: si;
-        margin-bottom: 15px;
-    }
+  .enviar {
+    grid-area: enviar;
+    padding: 4px;
+    color: black;
+  }
 
-    .nop {
-        grid-area: no;
-        margin-bottom: 15px;
-    }
+  .regalo {
+    text-align: center;
+    color: $gris;
+    padding: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: -24px;
+  }
 
-    .enviar {
-        grid-area: enviar;
-        padding: 4px;
-        color: black;
-    }
+  .vids {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 39px;
+    grid-gap: 10px;
+    margin-top: 45px;
+    margin-bottom: 44px;
+  }
+
+  .vids video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .video1 {
+    width: 30px;
+  }
+  .video2 {
+    width: 30px;
+  }
+
+  .video3 {
+    width: 30px;
+  }
+
+  .video4 {
+    width: 30px;
+  }
 }

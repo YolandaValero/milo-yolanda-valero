@@ -2,22 +2,10 @@
    @extend %titulos;
 }
 
-.container5 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "hold fotoPerro";
-    justify-items: end;
-    align-items: center;
-}
-
 .container5 img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    margin-top: 20px;
 }
 
 .fotoPerro {
@@ -36,55 +24,63 @@
         "orejas"
         "corte";
     grid-area: hold;
-    justify-items: end;
+    justify-items: center;
+    align-items: center;
+    height: 280px;
+    margin-top: 20px;
 }
 
 .baño {
     grid-area: baño;
-    font-size: 13px;
-    padding: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 .baño1 {
-    width: 30px;
-    margin-top: -279px;
-    margin-left: 37px;
+    width: 70px;
+    margin-left: 40px;
+    margin-top: -521px;
 }
 
 .uñas {
     grid-area: uñas;
-    font-size: 13px;
-    padding: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600
 }
 
 .uñas1 {
-    width: 30px;
-    margin-top: -215px;
-    margin-left: -30px;
+    width: 70px;
+    margin-top: -378px;
+    margin-left: -74px;
 }
 
 .orejas {
     grid-area: orejas;
-    font-size: 13px;
-    padding: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 33px;
 }
 
 .orejas1 {
-    width: 30px;
-    margin-top: -158px;
-    margin-left: -63px;
+    width: 70px;
+    margin-top: -238px;
+    margin-left: -74px;
 }
 
 .corte {
     grid-area: corte;
-    font-size: 13px;
-    padding: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600
 }
 
 .corte1 {
-    width: 30px;
+    width: 70px;
     margin-top: -99px;
-    margin-left: -13px;
+    margin-left: -75px;
 }
 
 .packs {

@@ -1,5 +1,7 @@
 .text-center {
   .container {
+    display: flex;
+    justify-content: center;
     .mb-4 {
       .fb-ic {
         color: $turquesa;

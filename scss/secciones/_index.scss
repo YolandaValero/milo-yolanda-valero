@@ -1,5 +1,4 @@
 .main {
-
   .servicios {
     color: $turquesaOscuro;
     font-size: 30px;
@@ -111,7 +110,7 @@
   h2 {
     @extend %titulos;
   }
-  
+
   .container1 {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
@@ -161,7 +160,7 @@
     grid-area: foto6;
     width: 90px;
   }
-  
+
   h3 {
     @extend %titulos;
     margin-bottom: -20px;
@@ -173,7 +172,6 @@
     color: $gris;
     padding: 13px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
     font-size: 15px;
     font-weight: 500;
     margin-top: 50px;
@@ -184,22 +182,22 @@
     position: relative;
   }
 
-  .button a{
+  .button a {
     position: absolute;
-    bottom:98px;
-    right:6px;
+    bottom: 98px;
+    right: 6px;
     background-color: $turquesa;
-    border-radius:1.5em;
-    color:white;
-    padding:10px;
+    border-radius: 1.5em;
+    color: white;
+    padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: smaller;
     text-decoration: none;
-    }
+  }
 
-    .button a:hover {
-      background: $gris;
-    }
+  .button a:hover {
+    background: $gris;
+  }
 
   .img-fluid {
     margin-top: 30px;

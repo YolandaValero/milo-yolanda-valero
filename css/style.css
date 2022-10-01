@@ -42,17 +42,17 @@
   margin-bottom: 13px;
   padding-bottom: 9px; }
 
-.text-center .container .mb-4 .fb-ic {
-  color: #23b4c4; }
-
-.text-center .container .mb-4 .twit {
-  width: 30px; }
-
-.text-center .container .mb-4 .face {
-  width: 30px; }
-
-.text-center .container .mb-4 .insta {
-  width: 30px; }
+.text-center .container {
+  display: flex;
+  justify-content: center; }
+  .text-center .container .mb-4 .fb-ic {
+    color: #23b4c4; }
+  .text-center .container .mb-4 .twit {
+    width: 30px; }
+  .text-center .container .mb-4 .face {
+    width: 30px; }
+  .text-center .container .mb-4 .insta {
+    width: 30px; }
 
 .main .servicios {
   color: #127f8b;
@@ -185,7 +185,6 @@
   color: darkgrey;
   padding: 13px;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: justify;
   font-size: 15px;
   font-weight: 500;
   margin-top: 50px; }
@@ -220,20 +219,10 @@
   font-weight: 700;
   font-style: normal; }
 
-.container5 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "hold fotoPerro";
-  justify-items: end;
-  align-items: center; }
-
 .container5 img {
   width: 100%;
   height: 100%;
-  object-fit: cover; }
+  margin-top: 20px; }
 
 .fotoPerro {
   grid-area: fotoPerro; }
@@ -246,47 +235,55 @@
   grid-auto-flow: row;
   grid-template-areas: "baño" "uñas" "orejas" "corte";
   grid-area: hold;
-  justify-items: end; }
+  justify-items: center;
+  align-items: center;
+  height: 280px;
+  margin-top: 20px; }
 
 .baño {
   grid-area: baño;
-  font-size: 13px;
-  padding: 5px; }
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600; }
 
 .baño1 {
-  width: 30px;
-  margin-top: -279px;
-  margin-left: 37px; }
+  width: 70px;
+  margin-left: 40px;
+  margin-top: -521px; }
 
 .uñas {
   grid-area: uñas;
-  font-size: 13px;
-  padding: 5px; }
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600; }
 
 .uñas1 {
-  width: 30px;
-  margin-top: -215px;
-  margin-left: -30px; }
+  width: 70px;
+  margin-top: -378px;
+  margin-left: -74px; }
 
 .orejas {
   grid-area: orejas;
-  font-size: 13px;
-  padding: 5px; }
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-left: 33px; }
 
 .orejas1 {
-  width: 30px;
-  margin-top: -158px;
-  margin-left: -63px; }
+  width: 70px;
+  margin-top: -238px;
+  margin-left: -74px; }
 
 .corte {
   grid-area: corte;
-  font-size: 13px;
-  padding: 5px; }
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600; }
 
 .corte1 {
-  width: 30px;
+  width: 70px;
   margin-top: -99px;
-  margin-left: -13px; }
+  margin-left: -75px; }
 
 .packs {
   margin-bottom: 47px; }
@@ -305,54 +302,52 @@
 .em3 {
   font-style: normal; }
 
-.mainPrecios .paquetes {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 10px;
-  background-color: #23b4c4;
-  margin: 62px;
-  padding-top: 2px;
-  transition: all 0.25s;
-  box-shadow: 0 2px 2px #00000080;
-  text-align: center; }
-  .mainPrecios .paquetes .preciosImg {
-    width: 60vw;
-    border-radius: 8px; }
-  .mainPrecios .paquetes .preciosP {
-    font-size: 1.25rem;
-    font-weight: 500;
-    line-height: 1.2;
-    color: white;
-    margin-top: 15px; }
+.mainPrecios .adaptamos {
+  color: darkgrey;
+  padding: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: -4px; }
 
-.mainPrecios .containerPrecios {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "pequeño mediano grande" "valorP valorM valorG"; }
-  .mainPrecios .containerPrecios .pequeño {
-    grid-area: pequeño;
-    font-weight: 700; }
-  .mainPrecios .containerPrecios .mediano {
-    grid-area: mediano;
-    font-weight: 700; }
-  .mainPrecios .containerPrecios .grande {
-    grid-area: grande;
-    font-weight: 700; }
-  .mainPrecios .containerPrecios .valorP {
-    grid-area: valorP;
-    font-weight: 500; }
-  .mainPrecios .containerPrecios .valorM {
-    grid-area: valorM;
-    font-weight: 500; }
-  .mainPrecios .containerPrecios .valorG {
-    grid-area: valorG;
-    font-weight: 500; }
+.mainPrecios .card {
+  margin-left: 15%;
+  margin-bottom: 20%;
+  width: 14rem; }
+
+.mainPrecios .card-body {
+  text-align: center; }
+
+.mainPrecios .pequeño {
+  grid-area: pequeño;
+  font-weight: 700; }
+
+.mainPrecios .mediano {
+  grid-area: mediano;
+  font-weight: 700; }
+
+.mainPrecios .grande {
+  grid-area: grande;
+  font-weight: 700; }
+
+.mainPrecios .valorP {
+  font-weight: 500;
+  margin-top: -18px; }
+
+.mainPrecios .valorM {
+  font-weight: 500;
+  margin-top: -18px; }
+
+.mainPrecios .valorG {
+  margin-bottom: -5px;
+  grid-area: valorG;
+  font-weight: 500;
+  margin-top: -19px; }
+
+.mainPrecios .valor {
+  display: flex;
+  flex-direction: column; }
 
 .mainPrecios .gatosPrecio {
   font-family: Arial, Helvetica, sans-serif;
@@ -374,7 +369,7 @@
   font-family: arial;
   margin-top: 46px;
   margin-bottom: 46px;
-  --animate-duration:3s;
+  --animate-duration: 3s;
   background-color: #23b4c4;
   padding: 30px;
   margin-left: 40px;
@@ -434,6 +429,43 @@
   grid-area: enviar;
   padding: 4px;
   color: black; }
+
+.mainReserva .regalo {
+  text-align: center;
+  color: darkgrey;
+  padding: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: -24px; }
+
+.mainReserva .vids {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 39px;
+  grid-gap: 10px;
+  margin-top: 45px;
+  margin-bottom: 44px; }
+
+.mainReserva .vids video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.mainReserva .video1 {
+  width: 30px; }
+
+.mainReserva .video2 {
+  width: 30px; }
+
+.mainReserva .video3 {
+  width: 30px; }
+
+.mainReserva .video4 {
+  width: 30px; }
 
 .container2 {
   display: grid;
@@ -614,6 +646,10 @@
     margin-bottom: 15%;
     width: 16rem;
     padding: 6px; }
+  .main .button a {
+    bottom: 164px;
+    right: 33px;
+    font-size: large; }
   /*Precios*/
   .mainPrecios .p {
     padding: 30px; }
