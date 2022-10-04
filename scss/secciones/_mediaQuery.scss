@@ -131,7 +131,7 @@
     .tarje {
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-content: space-around;
       width: 100%;
       padding: 10px;
       margin-top: 40px;
@@ -303,8 +303,8 @@
       margin-bottom: 146px;
     }
 
-    .card {
-      width: 27.4em;
+    .mainPrecios .card {
+      width: 26.4em;
     }
 
     h5 {
