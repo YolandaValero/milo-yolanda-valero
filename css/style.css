@@ -778,8 +778,11 @@
   .packs {
     margin-top: -230px;
     margin-bottom: 146px; }
-  .mainPrecios .card {
-    width: 26.4em; }
+  .tarje {
+    display: flex;
+    justify-content: space-around; }
+  .card {
+    width: 29rem; }
   h5 {
     font-size: 2.25rem; }
   p {

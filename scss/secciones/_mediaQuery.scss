@@ -303,8 +303,13 @@
       margin-bottom: 146px;
     }
 
-    .mainPrecios .card {
-      width: 26.4em;
+    .tarje {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .card {
+      width: 29rem;
     }
 
     h5 {
