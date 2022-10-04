@@ -652,6 +652,9 @@
   .packs {
     margin-top: 60px;
     margin-bottom: 90px; }
+  .tarje {
+    display: flex;
+    justify-content: space-around; }
   .card {
     margin-left: 0;
     margin-bottom: 15%;
